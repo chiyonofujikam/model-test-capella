@@ -8962,8 +8962,8 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2VPzUDpIEfGhcKjUXcEULg" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_2VPzUTpIEfGhcKjUXcEULg" dataarg="TestMahdi0_0"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2VPzUDpIEfGhcKjUXcEULg" source="DANNOTATION_CUSTOMIZATION_KEY" argtest="HELLO PEOPLE !!">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_2VPzUTpIEfGhcKjUXcEULg" dataarg="TestMahdi0_0" datarag="kam"/>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_2VQaYDpIEfGhcKjUXcEULg" name="AC">
       <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="../ArborescenceLogique.capellafragment#7234d79e-3cb5-4f59-8a42-1a97152eb41a"/>
