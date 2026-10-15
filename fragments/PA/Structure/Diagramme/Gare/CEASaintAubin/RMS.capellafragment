@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="6ed041c8-af51-40ae-b9c5-bd795408b537"
+    name="RMS">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="3a1340da-d5fa-452f-9698-94c1617c4be0" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="29f0912a-b293-4c63-986c-ddecc0a9be0e" name="A303 - 52CEA - RMS - COM - CFAP-xxx"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ea64f7f9-6cd7-4fa6-a1b9-2a6e5510681e" name="A303 - 52CEA - RMS - COM - CFAP-001"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="59601522-fbd6-48a3-8139-0d40712d02f5" name="A303 - 52CEA - RMS - COM - CFAD-001"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="9ed650e9-02a9-40b1-b7d5-886294fd29da" name="EQP"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="5e78b41f-070a-4966-af38-e359264de72c" name="ALIM"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

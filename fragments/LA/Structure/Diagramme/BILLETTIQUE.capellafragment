@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="81b4b2f4-03a1-418a-bac9-99c5ca3fdc03"
+    name="BILLETTIQUE">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="4faaf39a-aba2-4d49-9c4a-1dca3028c13e" name="CF - Commander Mise En Service Equipement"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="fd7c84e9-b930-4b7c-97aa-2ca263bd027c" name="CF - Commander Mise Hors Service Equipement"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="fe92a667-e24a-442c-8678-ec47bcee8d21" name="CF - Commandes Passage"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="3e22bc74-7e3e-48af-ad0c-36678e289e2a" name="CF - Etats Passage"/>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

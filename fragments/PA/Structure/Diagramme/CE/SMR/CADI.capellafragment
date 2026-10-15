@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="29526f0f-9c18-4200-a53e-33def3afd2ed"
+    name="CADI">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="2abc55b7-804c-4972-8c50-781b01b306b4" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="51e8420d-fe84-465c-b077-da153d4800f7" name="A303 - SMR - CADI - COM"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

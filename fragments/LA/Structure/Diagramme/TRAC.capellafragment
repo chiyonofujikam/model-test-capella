@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="a85daf4c-9b61-46bd-93d4-63f4c83221f0"
+    name="TRAC">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="9e23ae6c-9ff3-4e2d-8104-4d3e5346e573" name="C101 - TRAC"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="0373236f-1ebd-4e8a-bcb4-6cfd5efe00ea" name="Suppression AuHT">
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="dfd11d97-d979-4d51-aa2a-cd19813d54fa" name="C102 - TRAC - Suppression AuHT - Commande"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="ac3ef34a-022d-4059-8265-cb1e782a6e9b" name="C102 - TRAC - Suppression AuHT - Contrôle"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="015807f7-70f7-4e9a-b9ee-0e88bd650764" name="C102 - TRAC - Suppression AuHT - Information"/>
+  </ownedLogicalComponentPkgs>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="795e7ee6-f074-4a8f-aa0d-fb323b363f0f" name="REMOVEME">
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="259d896c-b063-4173-8d1b-7c8b1b0b4f45" name="CF - Supprimer Autorisation de Mise Sous Tension (AuHT)"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="e286d5ad-a18e-4253-875f-af1366b3f18c" name="CF - Actionner la coupure d'urgence générale depuis PCC"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="8875e670-cc2c-404b-8f36-1382d2c68d17" name="CF - Consigner Sous-Section Electrique depuis AC/CC">
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="35692bd6-2f07-4bb9-b357-019d6c6750ab" name="CF - Etape 1 - CMD - Mise Hors Tension Section"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="a78ac354-fc3b-48ad-a7bd-2806eb2c3566" name="CF - Etape 1 - CTRL - Mise Hors Tension Section"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="1a44348c-dce1-48a1-a79b-aac5d58333af" name="CF - Etape 2 - CMD - Sécurisation Sous-Section"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="9e5812b9-1816-4f08-a5f1-e2af6d23e358" name="CF - Etape 2 - CTRL - Sécurisation Sous-Section"/>
+    </ownedLogicalComponentPkgs>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="d6b04d45-3a90-4050-ba1a-e15af10734ea" name="CF - Actionner la coupure d'urgence SMR depuis PCC"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="688e62b4-4078-4594-bc5d-bfce6238abff" name="CF - Déconsigner Sous-Section Electrique depuis AC/CC">
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="b89104d2-a36b-41c6-94e9-e10242cc8bfb" name="CF - Etape 1 - CMD - Lever Sécurisation Sous-Section"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="71d3d9d1-5448-481f-9c6a-02c51e0bdb88" name="CF - Etape 1 - CTRL - Lever Sécurisation Sous-Section"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="5b0de8c1-22ac-4bde-b316-bbf88c89abd0" name="CF - Etape 2 - CMD - Mise Sous Tension Section Electrique"/>
+      <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+          id="9ab70b56-dd9e-4f26-b09f-02b61eb31e0c" name="CF - Etape 2 - CTRL - Mise Sous Tension Section Electrique"/>
+    </ownedLogicalComponentPkgs>
+  </ownedLogicalComponentPkgs>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

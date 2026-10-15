@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0" id="24313688-de37-4dd7-82cb-94de8db378d2"
+    name="Diagramme">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/Global.capellafragment#0877d1a7-2aca-46be-82ea-1c3b9b2a50ef"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/OA.capellafragment#b863141b-d906-4300-8a0b-47663d0f0110"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/Gare.capellafragment#3eea34f7-452b-4823-958f-5835955a4713"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/Tunnel.capellafragment#e5feef1a-7d69-49b2-8b1b-a9e0f98056a5"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/Viaduc.capellafragment#fffff628-a2b0-49a2-8e5c-305de97c8dbf"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/AS.capellafragment#3b6a0987-aba2-4dbe-b7bd-d381727b6f8c"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/TCTO.capellafragment#f9350b2f-97fe-4cb8-9a89-6029f0f0d663"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="Diagramme/CE.capellafragment#27be9817-16dc-473c-a17a-59eb2c7200ac"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

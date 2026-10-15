@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="e5891b6d-aa28-42f7-8270-ca014ae67dee"
+    name="VENTIL">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="8d3b824d-920e-4cf3-847f-884c217c6439" name="C101 - VENTIL"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="0ff029d4-c1b3-4e68-8ba4-42fec60b90c5" name="Ventilation de Confort"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="97cee256-00c5-41e5-ab58-a738c4b89447" name="Ventilation de Désenfumage">
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="d773c6ef-571d-40e1-ad2c-d446bd837f45" name="C102 - VENTIL - Désenfumage - Commande"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="40d70525-1a6a-4701-8d05-7b700e703849" name="C102 - VENTIL - Désenfumage - Contrôle"/>
+  </ownedLogicalComponentPkgs>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="a4b6e837-c383-45ab-ab68-1c270fa3a111" name="REMOVEME">
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="dd2d4d3d-c9be-48f8-bd9a-c1d0c4ae2148" name="Contrôler"/>
+  </ownedLogicalComponentPkgs>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

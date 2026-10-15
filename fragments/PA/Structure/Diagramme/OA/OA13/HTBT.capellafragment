@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="2d516a69-b899-4404-892f-f63cdde41fbc"
+    name="HT/BT">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="8292358b-ccca-4ac6-993b-1d44bc677d12" name="ALIM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="1343eabd-3acb-4cde-8040-b3b8b20de3f0" name="A303 - OA13 - HT/BT - ALIM - HT"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

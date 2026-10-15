@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="ce6fdd33-651e-4b42-8921-7672fd5c2e59"
+    name="VENTIL">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="06385e49-a53e-4638-9d99-2287bd2ce692" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="2e66d8de-bb77-4892-afac-0ec92d1bcfc0" name="A303 - OA11 - VENTIL - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="2692c132-f4bf-4d5b-929e-444b6396a111" name="EQP">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="340d11a7-a3a6-45a6-b05b-dfea0c794ac5" name="A303 - OA11 - VENTIL - EQP"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="f6b251c8-e1eb-474a-8654-8c724a339296" name="ALIM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="42edb10c-5845-4a81-a0eb-9b4ac92b56d5" name="A303 - OA11 - VENTIL - ALIM"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

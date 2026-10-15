@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="3eea34f7-452b-4823-958f-5835955a4713"
+    name="Gare">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="4025de37-3c12-44e3-a7e4-45fc6e22721f" name="CEA Saint-Aubin">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/CEASaintAubin/INFRA%20FO.capellafragment#8f87dc93-d674-45ea-8fac-affee39f73e4"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/CEASaintAubin/TRAC.capellafragment#8632568f-97a4-4ec2-980a-ef30be3307b7"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/CEASaintAubin/RMS.capellafragment#6ed041c8-af51-40ae-b9c5-bd795408b537"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="20363fec-623c-45fa-a453-63c6159ec237" name="Massy Palaiseau">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/MassyPalaiseau/INFRA%20FO.capellafragment#5893583b-4862-40b6-b105-bda8be8556a8"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/MassyPalaiseau/RMS.capellafragment#90625106-483e-449d-93d2-1a41b1c83a13"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/MassyPalaiseau/VENTIL.capellafragment#f8193da9-afdd-46ac-bfd4-412c1ff13883"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/MassyPalaiseau/HTBT.capellafragment#79115858-6dad-43d0-94fe-2c682c3b10f8"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/MassyPalaiseau/CADI.capellafragment#e1fd29ba-8f72-4309-8f6c-a17165cdea70"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="957ea8d2-c07e-4cca-9924-7c7bd22edd9f" name="Palaiseau">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/Palaiseau/INFRA%20FO.capellafragment#e4f703b0-cfd6-40f6-a5d7-2af51c8b1b16"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/Palaiseau/HTBT.capellafragment#8a52a1d4-d66a-4373-a67a-5331f50d7241"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/Palaiseau/RMS.capellafragment#157833b0-f2c1-43a2-91dc-ea91c7b332af"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="60a579a4-3747-4555-abbc-2d7161143c0a" name="Orsay GIF">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/OrsayGIF/INFRA%20FO.capellafragment#279da2e0-0570-41a5-8573-062a9e9362bf"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Gare/OrsayGIF/RMS.capellafragment#de53d8b8-f204-4a7f-af48-cad05a35e304"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="61f0f133-a9db-4ac8-872d-1a0fc4aec8c6" name="REMOVEME"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="a935550e-bcf7-4690-9280-e7c9f745a15a"
+    name="SSI">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="9b8af437-e521-4655-a5d3-9db5cacd6e84" name="EQP">
+    <ownedPropertyValuePkgs xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValuePkg"
+        id="1690a29e-47d8-4bca-9196-a11fa164ec5f" name="PropertyValuePkg 1"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="156bd90b-bc9e-486e-ac95-59e223fd0727" name="A303 - OA12 - SSI - EQP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="419ea604-341f-4bbc-a953-f9994c832349" name="A303 - OA12 - N01 - SSI - EQP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="a4c2b663-dfb9-45ce-840e-9a084baf8479" name="A303 - OA12 - N00 - SSI - EQP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="f3761765-deb2-4e4d-8cf8-b7c54c755f47" name="A303 - OA12 - S01 - SSI - EQP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="a3875941-dbe9-43c2-93f8-f60664ae031a" name="A303 - OA12 - S02 - SSI - EQP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="f3d4039a-4312-4b9e-8bf4-ab1fc3921642" name="A303 - OA12 - S03 - SSI - EQP"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

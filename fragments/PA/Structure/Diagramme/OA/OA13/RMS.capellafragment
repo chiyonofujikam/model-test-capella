@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="af42a5cc-92eb-499d-862c-ed0143649729"
+    name="RMS">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="da7b83be-b627-4bec-891e-05b7a3f12d37" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="a748af4a-5a2b-43cc-94a8-e2db1144f4e4" name="A303 - OA13 - RMS - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="513ef8a7-da21-400d-a1fd-354d021c79fb" name="EQP"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="72e6f598-4966-4d57-9cd8-6f2992190cc7" name="ALIM"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

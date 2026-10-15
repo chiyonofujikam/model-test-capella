@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="79115858-6dad-43d0-94fe-2c682c3b10f8"
+    name="HT/BT">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="89c4bcbd-4ecf-4878-8cfb-0baae3a3efab" name="COM"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="33a25176-a2c0-4fd5-b013-92be36b623b7" name="EQP"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="4e2001c8-044d-4faa-8ae6-7a83af99ff1e" name="ALIM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="39173b92-3b44-46a0-a633-b86b5d6f48fb" name="A303 - 49MAS - HT/BT - ALIM - HT"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="c5f9cd85-ff40-4ba3-84c9-e1d674397bba" name="A303 - 49MAS - HT/BT - ALIM - TGNU"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="abe8874e-8b93-4a26-9db2-8d1a3b5cd9b0" name="A303 - 49MAS - HT/BT - ALIM - TGSI"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

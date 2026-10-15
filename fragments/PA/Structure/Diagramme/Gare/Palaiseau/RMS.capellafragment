@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="157833b0-f2c1-43a2-91dc-ea91c7b332af"
+    name="RMS">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="2dc7eb7a-edcb-4f95-9062-b49e7d480139" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="25ad09aa-fbc4-4e5c-82f4-d9620adbf13f" name="A303 - 50PAL - RMS - COM - CFAP-xxx"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="cbfb4311-2876-41db-982c-4f6b14b13fb0" name="A303 - 50PAL - RMS - COM - CFAP-001"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="5fe5f914-5d31-40aa-bee1-a90a9904fd9b" name="A303 - 50PAL - RMS - COM - CFAD-001"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

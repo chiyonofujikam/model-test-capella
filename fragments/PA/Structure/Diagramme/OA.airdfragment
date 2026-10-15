@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_rI9qMCm3EfG3998FpQk7SQ" selectedViews="_rI-RQCm3EfG3998FpQk7SQ _rI-RQSm3EfG3998FpQk7SQ _rI-RQim3EfG3998FpQk7SQ _rI-RQym3EfG3998FpQk7SQ _rI-RRCm3EfG3998FpQk7SQ _rI-RRSm3EfG3998FpQk7SQ _rI-RRim3EfG3998FpQk7SQ" version="15.1.0.202211301600">
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA14bis/RMS.airdfragment#_2j3N8Cm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA13/RMS.airdfragment#_9Pjp4Cm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA11/VENTIL.airdfragment#_7skfECm6EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA11/HTBT.airdfragment#_zPH8MCm7EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA11/RMS.airdfragment#_CSIy8Cm9EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/HTBT.airdfragment#__zFI0Cm3EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/VENTIL.airdfragment#_t4XIUCm6EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/RMS.airdfragment#__tmZoCm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA14/VENTIL.airdfragment#_NVGRcCm6EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA14/RMS.airdfragment#_6YYBYCm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA13/HTBT.airdfragment#_FIg2cD_zEfG5xO1sfppHSQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/CADI.airdfragment#_kmF3sE3VEfGr24atf0tExA"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/TEL.airdfragment#_4ztJQE4REfGr24atf0tExA"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/SSI.airdfragment#_AcFp8E6hEfG_hrFk77CXrg"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA11/INFRA%20FO.airdfragment#_az-xUFUQEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA12/INFRA%20FO.airdfragment#_p8BewFUhEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA13/INFRA%20FO.airdfragment#_grvUQFUjEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA14/INFRA%20FO.airdfragment#_5wXPUFUjEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="OA/OA14bis/INFRA%20FO.airdfragment#_k9lHcFUkEfGEiZaZZk6r6Q"/>
+  <semanticResources>OA.capellafragment</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RQCm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RQSm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RQim3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RQym3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RRCm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RRSm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_rI-RRim3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

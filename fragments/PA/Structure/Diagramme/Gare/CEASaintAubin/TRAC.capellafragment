@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0" id="8632568f-97a4-4ec2-980a-ef30be3307b7"
+    name="TRAC">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="a83babef-86cc-480e-b83c-c3f25b57da95" name="A303 - Alimentation traction - COM - CEA SAINT-AUBIN - N4"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="1057f0a6-d98d-40ff-b2e1-dbc0a22c80eb" name="PR8"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="e75a2210-85b4-4a7a-bec8-30a9fe4d58e8" name="PR9">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="84cb9d1b-23b6-46a6-8615-2d67e15d0905" name="A303 - Alimentation traction - EQP - CEA SAINT-AUBIN - PR9 - N4"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="74584448-5dc7-453b-ab80-9e02e4256070" name="A303 - Alimentation traction - COM - CEA SAINT-AUBIN - PR9 - N4"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="b257ab4b-0c00-4444-ba14-7ee422e3bd69" name="A303 - Alimentation traction - EQP - CEA SAINT-AUBIN - N2"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="4f83cdd1-0734-4e67-975d-060fb3c8fa35" name="A303 - Alimentation traction - EQP - CEA SAINT-AUBIN - N3"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

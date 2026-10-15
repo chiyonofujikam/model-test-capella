@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="2580520c-462d-4375-9103-b02daff78b03"
+    name="HT/BT">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="b115f2c7-6c37-4c18-b60d-988692be6629" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="cc3953d1-4772-429c-8bdd-563ea687feef" name="A303 - SMR - HT/BT - COM - PRP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="8d371709-dc9c-472a-9cf0-aab747b0002d" name="A303 - SMR - HT/BT - COM - BT"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="3c6f4d68-68e8-45ab-9d70-3ee6e12e4ed0" name="EQP">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="d48978da-6850-43bb-902e-6375fb44e265" name="A303 - SMR - HT/BT - EQP - PL"
+        description=""/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="626daff3-761d-4604-98f0-54c1208a13e3" name="A303 - SMR - HT/BT - EQP - PEFO1"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="01b8fe49-068e-43f1-966e-c2ffc22e72f0" name="A303 - SMR - HT/BT - EQP - PEFO2"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="8e718a88-6076-4036-8442-c4ee47084fea" name="A303 - SMR - HT/BT - EQP - PEFB"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="682bd032-1706-40f4-ab22-0850812d9443" name="A303 - SMR - HT/BT - EQP - CUP"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="3bad325a-bbbd-458a-a31e-77836879464f" name="A303 - SMR - HT/BT - EQP - HT"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="ada9bb16-48db-4e86-ae60-ea0e0edcc612" name="ALIM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="435f032b-8be7-42ca-8bda-1bdad3f33e90" name="A303 - SMR - HT/BT - ALIM - HT"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="3b9cf68d-6528-4061-9cd6-78c59515603a" name="A303 - SMR - HT/BT - ALIM - TGNU"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="d29656ac-7913-4995-960d-6fb4a3fff150" name="A303 - SMR - HT/BT - ALIM - TGSI"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

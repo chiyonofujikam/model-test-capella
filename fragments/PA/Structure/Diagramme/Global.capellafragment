@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="0877d1a7-2aca-46be-82ea-1c3b9b2a50ef"
+    name="Global Ligne 18">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="65a8c1ff-ac7c-4ed2-87bb-ea06698eea7e" name="Générique">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="4e727c8e-2d27-46ee-a978-54a5478ca8cc" name="Paterne"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="5fb698c5-8346-40d0-9c7a-0d086496aca3" name="Point kilométrique"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ed219931-2e04-4e27-9cd6-fbf122dae0d8" name="Porte CADI">
+      <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="abd6f61b-fde4-4c7b-bf9e-2c472ca31e81"
+          name="Porte CAD" abstractType="org.polarsys.capella.core.data.pa:PhysicalComponent ../ArborescencePhysique/Phase1A.capellafragment#a8e08fbc-0123-482e-b42d-bb65a40ebb92"/>
+      <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="c4d682b9-bf14-42ab-883c-3c970804575d"
+          name="Porte Extérieur CAD" abstractType="org.polarsys.capella.core.data.pa:PhysicalComponent ../ArborescencePhysique/Phase1A.capellafragment#a335b426-40ba-41c1-9e59-d398aee87266"/>
+      <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="20a9c7d3-74d6-49a0-9c19-f41c66b573bb"
+          name="Porte INTRU" abstractType="org.polarsys.capella.core.data.pa:PhysicalComponent ../ArborescencePhysique/Phase1A.capellafragment#897c19d4-6ee3-49f5-a13e-858756b6f216"/>
+    </ownedPhysicalComponentPkgs>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="2f8023ef-515b-4762-9e41-db693e36da13" name="Porte SSI"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="1715b21f-8a4b-415c-81ea-8f40c1e09ae6" name="INFRA FO">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="19d8f484-7756-406f-ad3a-11a17df4808e" name="A302 - INFRA FO - Câble M1"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ee4a6ecf-7e8f-420f-8ecf-ab13c865e027" name="A302 - INFRA FO - Câble M2"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ee6e4035-ff70-46f0-8478-edb7bb4c19ae" name="A302 - INFRA FO - Câble M3"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="acf1ae58-f433-4350-8a18-1945dc1eaa6a" name="A302 - INFRA FO - Câble M4"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="08cb1a76-53de-4a2f-8d2d-892eacb78211" name="A302 - INFRA FO - Câble M5"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="c36130ef-8575-4e93-a06b-bd76c5f291c0" name="RMS">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ec588bf4-4f36-4d5e-ae12-5cb03922cbc2" name="A302 - RMS - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="e719ff74-0a6a-4bc8-b139-5d00bb0775cd" name="VENTIL">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="c2f69ff8-3393-4c23-a4cd-44db066152d8" name="A302 - VENTIL - COM"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="1fd2c956-5d93-472a-99b2-8e9ba73b626d" name="A302 - VENTIL - FCT"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="fe6dd769-eb36-4c57-be3a-26b5c46d2716" name="HT/BT">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="7d3f6849-11c3-4caa-a5fc-36499655942c" name="A302 - HT/BT - PRP - COM"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="5010cfb4-1435-4005-a9fe-70e74d129c58" name="A302 - HT/BT - Alimentation"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="bcf185e1-2bb8-4954-9935-af4bbbfd4e46" name="ACCC">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="cd4de8fe-49b0-4031-acb2-22c539eaef0c" name="A302 - ACCC - STD - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="0669ad7c-d46a-448f-aec5-8c5783466958" name="RADIO">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="e90412c0-7b4f-4fa3-bc97-4d6d6b0bd94d" name="A302 - RADIO - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="c08a90a7-e2ff-4fc0-a825-a096263b0e0e" name="TRAC">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="0f71d65d-6d87-4b2b-a67a-852fa56ab9db" name="A302 - TRAC - COM"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

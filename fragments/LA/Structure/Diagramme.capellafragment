@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="6049d8b3-0420-4dfc-810f-95448977f581"
+    name="Diagramme">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="337e7eb7-087c-486a-8ead-70478d84bd30" name="Global Ligne 18"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/VENTIL.capellafragment#e5891b6d-aa28-42f7-8270-ca014ae67dee"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/HTBT.capellafragment#c7eff3bc-712f-400d-bb1b-e5a87090a789"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/RMS.capellafragment#dfc3cb5f-d80f-49dc-9dc0-31c8c5b571b8"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/ACCC.capellafragment#b5dc9f6e-3153-44fc-98e2-9ee013f8311d"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/GENEPHONIE.capellafragment#16a1d450-427b-4af8-9958-de86da904eac"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/CaDi.capellafragment#cfa86a97-67a2-4195-bb93-07fddc77e08a"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/GTB.capellafragment#99d38685-32a5-4716-ba23-452ee97b1964"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/MAL.capellafragment#65422c80-a71b-46f1-b785-24d1c49ce22f"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/TRAC.capellafragment#a85daf4c-9b61-46bd-93d4-63f4c83221f0"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      href="Diagramme/BILLETTIQUE.capellafragment#81b4b2f4-03a1-418a-bac9-99c5ca3fdc03"/>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

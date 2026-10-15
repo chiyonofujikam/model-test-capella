@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="e1fd29ba-8f72-4309-8f6c-a17165cdea70"
+    name="CADI">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="59212677-dfde-47ff-995c-c07b80b29d80" name="COM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="c1b35e52-29ed-4ea4-9521-52cbba0c9c2e" name="A303 - 49MAS - CAD - COM"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="916079c3-fb9f-42fe-b06b-dbbb25a6617e" name="EQP">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ef89af10-4569-4a59-887a-02957ffab14a" name="A303 - 49MAS - CAD - EQP - UTL1 et UTL2"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="98ae5a67-b55e-4882-8f1b-342d459c40a3" name="A303 - 49MAS - CAD - EQP - UTL3 et UTL4"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="09e8a62f-d686-4c6a-8304-ee40d5504a62" name="A303 - 49MAS - CAD - EQP - UTL15 et UTL16"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="170a541f-9d5b-4a3e-b299-5e45b200c69c" name="A303 - 49MAS - CAD - EQP - UTL5 et UTL6"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="75239ad1-57d0-4096-9eac-3d746983dad4" name="A303 - 49MAS - CAD - EQP - UTL7 et UTL8"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ffc73cbc-0f67-4953-94f0-ccc15db86b0d" name="A303 - 49MAS - CAD - EQP - UTL9 et UTL10"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="c8fe2e59-bb67-4add-a6ed-859d850add31" name="A303 - 49MAS - CAD - EQP - UTL11 et UTL12"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="a3e66961-e228-4ad4-b252-bbd4eecf49af" name="A303 - 49MAS - CAD - EQP - UTL13 et UTL14"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="4611a089-80f8-4ba6-b40e-4db3a3bdf684" name="ALIM">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="b19099ff-82fa-4783-9125-b5bd2b4a7090" name="A303 - 49MAS - CAD - ALIM - UTL1 et UTL2"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="64c8505c-3b11-4da3-953a-e57d918ef440" name="A303 - 49MAS - CAD - ALIM - UTL3 et UTL4"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="18eb2d64-e093-40a9-babe-d4fc0b5824b8" name="A303 - 49MAS - CAD - ALIM - UTL15 et UTL16"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="ce286d5b-dabf-48da-8b20-9eeb24879639" name="A303 - 49MAS - CAD - ALIM - UTL5 et UTL6"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="d25e0f38-712a-4d9f-993b-ce2adeb4c019" name="A303 - 49MAS - CAD - ALIM - UTL7 et UTL8"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="7d8e6df4-90c9-4db4-9ea5-71c78fb64ddc" name="A303 - 49MAS - CAD - ALIM - UTL9 et UTL10"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="25d0de2e-6a25-427b-9f57-6767a6d6d781" name="A303 - 49MAS - CAD - ALIM - UTL11 et UTL12"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        id="3b193193-0a41-435e-a2c6-57aa7bd0c964" name="A303 - 49MAS - CAD - ALIM - UTL13 et UTL14"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

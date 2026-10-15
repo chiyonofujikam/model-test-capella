@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_svimcCm3EfG3998FpQk7SQ" selectedViews="_svimcSm3EfG3998FpQk7SQ _svimcim3EfG3998FpQk7SQ _svimcym3EfG3998FpQk7SQ _svimdCm3EfG3998FpQk7SQ _svimdSm3EfG3998FpQk7SQ _svimdim3EfG3998FpQk7SQ _svimdym3EfG3998FpQk7SQ" version="15.1.0.202211301600">
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/CEASaintAubin/TRAC.airdfragment#_DOe74Cm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/MassyPalaiseau/VENTIL.airdfragment#_NOxxkCm7EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/MassyPalaiseau/HTBT.airdfragment#_KQDhMCm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/MassyPalaiseau/RMS.airdfragment#_wh1aECm8EfG3998FpQk7SQ"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/Palaiseau/HTBT.airdfragment#_asDEcCwrEfG8aavHbU7G4Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/Palaiseau/RMS.airdfragment#_QIBX8EIXEfG8SIXV__1Yiw"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/OrsayGIF/RMS.airdfragment#_QUYSUEeQEfGprZGhg4KW-w"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/CEASaintAubin/RMS.airdfragment#_COzZgEhmEfGQuq1guJSJkg"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/MassyPalaiseau/CADI.airdfragment#_AoAQ8E6fEfGRztbd-CWNlA"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/CEASaintAubin/INFRA%20FO.airdfragment#_IakSkFUnEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/MassyPalaiseau/INFRA%20FO.airdfragment#_2IzggFUoEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/Palaiseau/INFRA%20FO.airdfragment#_gn-m4FUpEfGEiZaZZk6r6Q"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="Gare/OrsayGIF/INFRA%20FO.airdfragment#_5A3dUFUpEfGEiZaZZk6r6Q"/>
+  <semanticResources>Gare.capellafragment</semanticResources>
+  <semanticResources>../ArborescencePhysique/Phase1A.capellafragment</semanticResources>
+  <semanticResources>../../Structure.capellafragment</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimcSm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimcim3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/EPBS.odesign#//@ownedViewpoints[name='EPBS%20architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimcym3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimdCm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimdSm3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimdim3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_svimdym3EfG3998FpQk7SQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

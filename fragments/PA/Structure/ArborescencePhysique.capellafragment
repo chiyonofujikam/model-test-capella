@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="680ca1de-28f7-45e4-b611-fb1ffe422882"
+    name="Arborescence physique">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="ArborescencePhysique/Phase1A.capellafragment#448d6c4a-72ce-4f4e-b1d7-4e6def7baaee"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="ArborescencePhysique/Phase1B.capellafragment#0a4d2d27-8fc0-4552-be44-4e11ec2fd6ec"/>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      href="ArborescencePhysique/Phase2.capellafragment#0fd4543b-98fb-4e7c-b7ce-ec210d415b53"/>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

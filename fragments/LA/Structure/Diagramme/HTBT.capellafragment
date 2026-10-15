@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="c7eff3bc-712f-400d-bb1b-e5a87090a789"
+    name="HT/BT">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="e0a9f58f-8959-4de2-9fca-784e301b9118" name="BT">
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="c2e7f626-9b04-42b2-a219-b987d8f164b5" name="Mode Nominal"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="43e717d4-e93f-4378-b405-1f48cee1d910" name="Mode Simulation"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        id="84b74a14-32fe-40fa-969e-952d67eefb0e" name="CF - Commander Equipement BT"/>
+  </ownedLogicalComponentPkgs>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

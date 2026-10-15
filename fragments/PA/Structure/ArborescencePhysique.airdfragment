@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description" uid="_FXM34BF-EfGh7fxU-3_4MQ" selectedViews="_FXVawBF-EfGh7fxU-3_4MQ _NVTyoDMXEfGgieCHcqYvWA" version="15.1.0.202211301600">
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="ArborescencePhysique/Phase1A.airdfragment#_p_q-kCaQEfGHItjXWna-Fg"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="ArborescencePhysique/Phase1B.airdfragment#_sh3OgCaQEfGHItjXWna-Fg"/>
+  <referencedAnalysis xmi:type="viewpoint:DAnalysis" href="ArborescencePhysique/Phase2.airdfragment#_unIR4CaQEfGHItjXWna-Fg"/>
+  <semanticResources>ArborescencePhysique.capellafragment</semanticResources>
+  <ownedViews xmi:type="viewpoint:DView" uid="_FXVawBF-EfGh7fxU-3_4MQ">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/physical.odesign#//@ownedViewpoints[name='Physical%20Architecture']"/>
+  </ownedViews>
+  <ownedViews xmi:type="viewpoint:DView" uid="_NVTyoDMXEfGgieCHcqYvWA">
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

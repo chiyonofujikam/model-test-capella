@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalFunctionPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="08778600-b125-4380-a19a-4e68baedf3b8"
+    name="Physical Functions">
+  <ownedPhysicalFunctions xsi:type="org.polarsys.capella.core.data.pa:PhysicalFunction"
+      id="240ac290-8626-48ad-8de8-a67c95607bea" name="Root Physical Function">
+    <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
+        id="1496c93e-b05b-4bfc-95f4-188265140453" targetElement="org.polarsys.capella.core.data.la:LogicalFunction ../LA/Functions.capellafragment#80e82c84-d260-48e2-b796-41b674fd1806"
+        sourceElement="#240ac290-8626-48ad-8de8-a67c95607bea"/>
+  </ownedPhysicalFunctions>
+</org.polarsys.capella.core.data.pa:PhysicalFunctionPkg>

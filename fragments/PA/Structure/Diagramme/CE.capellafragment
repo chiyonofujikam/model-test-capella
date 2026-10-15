@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="27be9817-16dc-473c-a17a-59eb2c7200ac"
+    name="Centre d'exploitation">
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="914e699e-74a6-49da-a082-df22e52c12e7" name="SMI">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/SMI/CADI.capellafragment#90dd84fd-42f0-4163-8a1b-b13c8b89c5d7"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="20988cdd-b7a4-41c1-8789-1ffe7e1dc2af" name="SMR">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/SMR/HTBT.capellafragment#2580520c-462d-4375-9103-b02daff78b03"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/SMR/CADI.capellafragment#29526f0f-9c18-4200-a53e-33def3afd2ed"/>
+  </ownedPhysicalComponentPkgs>
+  <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+      id="2b12cc2e-18cf-4b1a-a1a0-dfe84dafef2e" name="Bâtiment PCC et PCC REPLI Phase 1A">
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/PCC/VENTIL.capellafragment#7b378c4c-d2ea-4634-a87b-b998df7ca50b"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/PCC/HTBT.capellafragment#5206b1cc-3b5d-498f-ae9e-564d308a8313"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/PCC/RMS.capellafragment#361bc678-c729-46b2-b230-2fbee01f0f26"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="CE/PCC/INFRA%20FO.capellafragment#28ca9e45-6cca-4b2a-ad94-c2a57ae298d7"/>
+  </ownedPhysicalComponentPkgs>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

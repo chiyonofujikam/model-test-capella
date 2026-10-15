@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0"
+    xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0"
+    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="4216b95b-4a19-4073-b2ed-f195e64c7660"
+    name="Structure">
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e38743df-75d6-4d84-b31a-d5a949e86595"
+      name="Ligne 18 Phase 1A" abstractType="#46b0e5ba-91be-40b0-80ad-3f1d5088e225"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e0b8e744-2e38-4521-abf7-9c78fc978b12"
+      name="Opérateur PCC" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#2977fc24-3cd3-4535-bf6b-57e0e08d0da0"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="b4e34b74-c17c-4f31-93c4-817c750fc572"
+      name="Opérateur de Maintenance" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#7f95a2b1-8ff6-417a-b0f2-56e7b71cceef"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="800c48cf-cc66-4cf4-b9b4-069b17e1e8fa"
+      name="SAM Machine à Laver" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#57183772-7e27-4d46-aab7-d8d5a99303f5"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d93d6b4b-42f7-4aa4-83f9-eb5d23bbcf96"
+      name="Machine à laver" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#5ecee175-9f35-4da8-b4ac-e597cb6d1f35"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="72bec8a6-7d1a-40ee-a75f-6f2883a1d4f5"
+      name="Chargé d'Exploitation" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#92564c47-fb1a-4463-b0dc-6b7fc0636a47"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="c3a9decf-fac8-4607-b904-8171eb98a945"
+      name="Chargé de Consignation" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#aa4b7933-6e31-43f5-a298-b1e9deb07760"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6ed96e6a-f071-478f-8e2c-827aa9e619ec"
+      name="SI Service IDFM" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#5064c5d4-4f21-4d38-b4d1-dcaea9873110"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="381353de-75e5-4445-b4c2-79d0f6a2fcd0"
+      name="SI Bancaire OT" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#a57dc753-f520-4488-8df0-dfa5e8678c51"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="9aaba3d9-4207-4d51-84b1-d96e01b3caeb"
+      name="SI OT" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#7c293965-9c44-40f5-b77c-6aa7ed51294c"/>
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e10ef9dd-fcf3-4447-a6eb-1f13ec80101e"
+      name="Poste opérateur UAE" abstractType="org.polarsys.capella.core.data.la:LogicalComponent Structure/ArborescenceLogique.capellafragment#7d407137-b188-4cd2-897e-85acb01609ff"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="7fd8a421-4137-478c-9e9c-9e04d32f84cd" name="IHM" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#7a175959-3fca-4dab-abe2-a407a85dbb20"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#087c6b40-c057-445a-9d1c-9dfb9fb42eeb"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="36b4e9e6-b7f9-4218-b5b7-745ca5216df0" name="C 2" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#97554b0b-cc55-4659-bec1-418e49a44e41"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#57f4e3fc-cc2f-4a2e-a6fd-dc2946448238"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="282e3ef5-17fa-4a1a-bf1c-57111362df90" name="C 3" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#7bd33fc4-ea34-401c-82ff-e470209d8082"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#7a16153e-2152-4386-9fbc-363458a5e666"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="c8a454ab-a70a-4f7b-9fac-6147f44f249d" name="C 4" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#5fb799d0-8fd8-4415-8b72-d4eb814aefeb"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#f4b347c7-7e81-4ae8-8e4f-2d7946d6b337"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="b6fd6d1a-5c34-41e7-83f4-1581ff5f1c49" name="C 5" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#e7cefe4d-8537-496d-ae4d-60531f809a2e"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#3f8b4907-8c60-446a-97cd-b45d74a35c1e"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="5433d044-24b6-459e-8246-353adde6f6d5" name="C 6" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#ac8a187e-913e-425d-8e26-9db48f181246"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#045eb7b9-e22a-42f0-ad3b-eae6f585f71f"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="6d3580f6-4983-46a4-a231-35c3c7687edc" name="C 7" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#3fbdfc65-472e-45fa-bf6c-a1c53a9e4a46"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#35fcdf16-13dc-41ac-904d-216f8ace19ca"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="94265d59-6f39-4b06-82b6-a0090a7c679e" name="C 8" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#9f2d9f2d-29f8-4b06-960f-04a486c2d25a"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#7047bbf0-6d47-4254-9aaa-313d57e550da"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="572f1fb1-60f8-4d45-a5f8-9969f52f95b2" name="C 9" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#0cb343cd-6d15-4a7c-8c29-e81512b4c3ab"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#e6aa5d42-3559-4f22-afa6-be6d82360dc4"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="3cb76c38-cffb-402a-94f6-d7cdb6073ead" name="C 10" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#77549603-1598-4b62-9d6b-c1a1b6de4e89"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#8008957b-fff5-4265-b538-06b464d810f9"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="84de3f27-68a7-4637-bd3f-c4d8f764ccfa" name="C 11" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#9533188d-8f19-4380-a8dc-51cd06cf507f"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#8b009c0b-b869-4405-8683-175ea1424e45"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="00de78de-9e17-4897-a7c6-0dab99cf19a6" name="C 13" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#fd1f2f59-c98e-4a54-90aa-29f3c3ce94b6"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#99a19a9e-c580-4705-973d-5fe702f08059"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="63b66c3e-cbef-4037-9c9f-3765d8e7cbc9" name="C 14" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#dfdb93f1-75a7-4731-b6d5-b90d3af06eda"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#dd64e138-49ae-4d6e-afac-3f2a41ec44c3"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="aa591b0c-50d6-48fa-bb29-0e707a2aa741" name="C 15" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#2556ddc9-d76c-46e4-95e0-dfca4692be6e"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#852190b2-1ae1-414f-aa3c-0401804d1817"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="dbe2f498-a4f5-4aee-863c-767b72ed4283" name="C 19" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#3146b025-6caa-4f92-a861-f7c8462bd861"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#592b88a5-6342-4de2-998a-3b6f508232dd"
+      kind="FLOW"/>
+  <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+      id="15f1c47d-bc8c-4619-a31c-24da7d967c9f" name="C 20" source="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#2ecb3a43-20f0-48b1-8365-d04799fea591"
+      target="org.polarsys.capella.core.data.fa:ComponentPort Structure/ArborescenceLogique.capellafragment#b5427fe0-6d2e-4246-b4a4-f496a794ea64"
+      kind="FLOW"/>
+  <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+      id="46b0e5ba-91be-40b0-80ad-3f1d5088e225" name="Ligne 18 Phase 1A">
+    <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+        id="3cf38208-587d-4728-aad8-cf69b1bd579c" targetElement="org.polarsys.capella.core.data.ctx:SystemComponent ../../Ligne%2018.capella#df541365-95e3-4d1c-b82d-38bf155f0d96"
+        sourceElement="#46b0e5ba-91be-40b0-80ad-3f1d5088e225"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        href="Structure/Diagramme.capellafragment#6049d8b3-0420-4dfc-810f-95448977f581"/>
+    <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+        href="Structure/ArborescenceLogique.capellafragment#f890af6d-a569-4424-9a52-d4259a4827af"/>
+  </ownedLogicalComponents>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>

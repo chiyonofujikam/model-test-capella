@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.pa:PhysicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
+    xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
+    id="37d01a49-9efa-4fee-a15f-512969d94b13"
+    name="Structure">
+  <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="a7dda552-5a8c-4fb7-9044-7f80c6ffd8b9"
+      name="Ligne 18 Phase 1A" abstractType="#e6717ada-ebcc-4ca4-8186-b4e866efc34b"/>
+  <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+      id="e6717ada-ebcc-4ca4-8186-b4e866efc34b" name="Ligne 18 Phase 1A">
+    <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
+        id="ca36f325-c96b-45ad-a12e-c4ddec9956c0" targetElement="org.polarsys.capella.core.data.la:LogicalComponent ../LA/Structure.capellafragment#46b0e5ba-91be-40b0-80ad-3f1d5088e225"
+        sourceElement="#e6717ada-ebcc-4ca4-8186-b4e866efc34b"/>
+    <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath" id="7dae974a-7dcd-4ec1-b301-db8b99d86afa"
+        name="Voie 1 + Voie 2">
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="03e4599f-250d-4f68-9821-f842c452861f" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fa2120c3-2e8f-4253-90f5-1d37f591b7bd"
+          nextInvolvements="#c8124430-b4ef-4127-9947-12481195c61a"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="c8124430-b4ef-4127-9947-12481195c61a" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#cd5c9ac8-ae7f-4850-af03-32555b3b05ad"
+          nextInvolvements="#247989ba-0a65-4ab6-9fb4-72111c1a848c"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="247989ba-0a65-4ab6-9fb4-72111c1a848c" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#735f98a9-d663-4453-bd8f-738fa1afda92"
+          nextInvolvements="#44c7457e-a2c7-4cdf-a768-4bec2f59657b"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="44c7457e-a2c7-4cdf-a768-4bec2f59657b" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#0b940719-6e4e-4d96-b246-42b9412e959a"
+          nextInvolvements="#133ff648-6011-4949-b760-41400b1721ef"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="133ff648-6011-4949-b760-41400b1721ef" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#aaf2c7b8-32e7-41aa-8b5f-7f5a1f386b08"
+          nextInvolvements="#0eb1bdea-30c2-4c5d-bf39-ae40ddb27dc8"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="0eb1bdea-30c2-4c5d-bf39-ae40ddb27dc8" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#de252998-caf3-4938-bbaf-54f05ca003ce"
+          nextInvolvements="#17195c35-4d32-4fef-802d-38dd26d72142"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="17195c35-4d32-4fef-802d-38dd26d72142" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#690cd134-5699-4986-976d-771064ca33f4"
+          nextInvolvements="#dd712df8-25f0-4fcb-a175-6a17f448c9c0"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="dd712df8-25f0-4fcb-a175-6a17f448c9c0" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#1b553fa0-1088-4310-8557-77933290ed48"
+          nextInvolvements="#1149f04b-6cc8-4bed-a1d1-1d7bbf90d371"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="1149f04b-6cc8-4bed-a1d1-1d7bbf90d371" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#4d3d72c5-dd6f-4103-956a-e8983e09a643"
+          nextInvolvements="#271a7cc8-bc04-439e-b69c-2697bd56d1b7"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="271a7cc8-bc04-439e-b69c-2697bd56d1b7" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#e9800c9a-0693-4cda-ae96-ff946f57ecdb"
+          nextInvolvements="#ebfec229-d41f-4c31-9f9a-9842a99ea94a"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="ebfec229-d41f-4c31-9f9a-9842a99ea94a" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#2a77470d-53ac-4e40-883d-8395d1de177b"
+          nextInvolvements="#388b2fa1-2fa5-4345-af1b-31508c474441"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="388b2fa1-2fa5-4345-af1b-31508c474441" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#5b5d97f3-dc8c-4821-b665-32c2bf2547aa"
+          nextInvolvements="#d466c1a9-1dff-4ac8-8063-c08ba7f7e281"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="d466c1a9-1dff-4ac8-8063-c08ba7f7e281" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#bf28f317-b5df-4030-9343-d6dae56ce366"
+          nextInvolvements="#1c294492-ef78-46fc-9ba8-145f6b228715"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="1c294492-ef78-46fc-9ba8-145f6b228715" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#9938d7ce-8eda-4953-b9f1-f62c3f3a3e9d"
+          nextInvolvements="#c68c7a7d-606c-4f73-b99d-11fb496298f8"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="c68c7a7d-606c-4f73-b99d-11fb496298f8" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#a81d3a0c-d472-465e-93d9-0ec1cc7a4fd9"
+          nextInvolvements="#c6ed74e1-98f5-4ed5-bc07-eab2c4052280"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="c6ed74e1-98f5-4ed5-bc07-eab2c4052280" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#d2bb9815-2306-4068-bd95-f1f939a49727"
+          nextInvolvements="#464e39fd-99f0-41d2-8ab1-51a3b2d60254"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="464e39fd-99f0-41d2-8ab1-51a3b2d60254" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fd92c1e0-ff4a-4fe4-b4d5-7ce826a06423"
+          nextInvolvements="#902f695b-e4ce-44d2-9a10-f21499b69ab9"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="902f695b-e4ce-44d2-9a10-f21499b69ab9" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#1134e3b0-c7d6-4dea-969f-2744ab630204"
+          nextInvolvements="#67b0f37f-0b45-4815-b2d9-505080fe7e7f"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="67b0f37f-0b45-4815-b2d9-505080fe7e7f" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#505dbcca-8023-4f22-a460-5069c2e16db2"
+          nextInvolvements="#70e179a0-9547-47b3-8711-4f2c690f0762"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="70e179a0-9547-47b3-8711-4f2c690f0762" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#c94917b3-4e54-4fcf-a23d-8fdc246ba296"
+          nextInvolvements="#368065d5-fd5c-4030-bf55-3df07836680b"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="368065d5-fd5c-4030-bf55-3df07836680b" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#5978c3ef-3ff5-4d3c-8869-eafe42a935ce"/>
+    </ownedPhysicalPath>
+    <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath" id="38fae7b8-cf43-49cb-9362-a96c4dca0943"
+        name="Flux d'air">
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="af2a5483-362e-4070-b316-f212530ad031" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#acbbf960-f7ca-4385-aef0-9dc4584c1ce7"
+          nextInvolvements="#7fa0d66f-75a3-42c5-8a9f-6cb591e507a7 #8fce706a-9452-4a83-8b8f-39bd09f061c9"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="7fa0d66f-75a3-42c5-8a9f-6cb591e507a7" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#6361fc2f-b46d-41bc-a7ea-c40e92b3a956"
+          nextInvolvements="#5aa7debb-2cd2-428d-99dd-5e62ffc5c670"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="5aa7debb-2cd2-428d-99dd-5e62ffc5c670" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#5978c3ef-3ff5-4d3c-8869-eafe42a935ce"
+          nextInvolvements="#8a35e63e-ed61-4515-ac5b-c5cab5536b5e #7069207d-4c4c-4df1-a274-7827868a28d5 #99c69b38-cd54-477a-b070-15d15c4ff81d"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="330697a5-fa6c-45ad-8d60-6a53c4ad3f00" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#5978c3ef-3ff5-4d3c-8869-eafe42a935ce"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="8a35e63e-ed61-4515-ac5b-c5cab5536b5e" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#5d064c50-efbb-446d-a2f9-7852f98487c1"
+          nextInvolvements="#330697a5-fa6c-45ad-8d60-6a53c4ad3f00"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="5555d8d1-1559-4542-9a79-bb6dd834fc5f" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#5978c3ef-3ff5-4d3c-8869-eafe42a935ce"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="7069207d-4c4c-4df1-a274-7827868a28d5" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#fbae74c4-537c-4fcb-b82a-4706deb28b87"
+          nextInvolvements="#5555d8d1-1559-4542-9a79-bb6dd834fc5f"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="ad8906d6-7f44-4e12-9bdc-8d07303807be" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#acbbf960-f7ca-4385-aef0-9dc4584c1ce7"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="8fce706a-9452-4a83-8b8f-39bd09f061c9" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#edbc61fb-ee48-44ae-8c8c-75d4cd7e1a53"
+          nextInvolvements="#ad8906d6-7f44-4e12-9bdc-8d07303807be"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="2400eccb-327d-485d-a37d-f79a58352f82" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#505dbcca-8023-4f22-a460-5069c2e16db2"
+          nextInvolvements="#72b64b93-3772-4b22-88ee-8b71195078b9 #24035116-7e3c-4495-a141-345e4c1f6c85 #a34cc8de-0ffc-4a52-9ec5-569fa0f4871c #acbbad6d-148c-47d6-8b1f-ceb30a28a056"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="99c69b38-cd54-477a-b070-15d15c4ff81d" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#7a3f441a-e061-4b5a-bd0f-413b89e8be20"
+          nextInvolvements="#2400eccb-327d-485d-a37d-f79a58352f82"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="e6a726ca-d53c-4f1c-aa42-967820e67fff" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#505dbcca-8023-4f22-a460-5069c2e16db2"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="72b64b93-3772-4b22-88ee-8b71195078b9" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#53103d56-a8db-4c11-bdc6-aab26d37ebc8"
+          nextInvolvements="#e6a726ca-d53c-4f1c-aa42-967820e67fff"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="e4ee9a64-5d2f-4e99-83a1-08d57ad35b23" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#505dbcca-8023-4f22-a460-5069c2e16db2"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="24035116-7e3c-4495-a141-345e4c1f6c85" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#8a2ea38f-91a1-4a59-b78c-6360b08a7e2a"
+          nextInvolvements="#e4ee9a64-5d2f-4e99-83a1-08d57ad35b23"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="5dabfff2-f161-41c5-bea3-431c2070ddd8" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#505dbcca-8023-4f22-a460-5069c2e16db2"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="a34cc8de-0ffc-4a52-9ec5-569fa0f4871c" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#c2031032-9114-4902-a042-f5642d05e8a8"
+          nextInvolvements="#5dabfff2-f161-41c5-bea3-431c2070ddd8"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="a0163b66-9358-45f2-b1fe-fe0ff7196226" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fd92c1e0-ff4a-4fe4-b4d5-7ce826a06423"
+          nextInvolvements="#1f6695b4-c32f-473e-8ea1-8ded39327997 #06250455-99d4-4b25-8636-34504bd86128 #8a091c72-ff81-4338-9ebb-b0384965adb6 #91429eb9-f235-4535-a218-c215c653a5f8 #a6e445fa-2a2d-4708-bcac-b3417c78dae5 #59fd92a4-3b4f-4a5a-b1fa-0a58c2c032ac"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="acbbad6d-148c-47d6-8b1f-ceb30a28a056" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#3e8ea8b9-f092-4aae-a003-45f1be15e2e2"
+          nextInvolvements="#a0163b66-9358-45f2-b1fe-fe0ff7196226"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="b209ed93-426d-48ef-860d-92f963c2917c" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fd92c1e0-ff4a-4fe4-b4d5-7ce826a06423"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="1f6695b4-c32f-473e-8ea1-8ded39327997" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#762a67c4-34ff-47bb-95ff-79ca25ceb379"
+          nextInvolvements="#b209ed93-426d-48ef-860d-92f963c2917c"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="d69f089f-b004-4c8d-a982-72cddc6d8c30" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fd92c1e0-ff4a-4fe4-b4d5-7ce826a06423"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="06250455-99d4-4b25-8636-34504bd86128" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#af67072f-db00-4747-8a3b-267e4e765ff4"
+          nextInvolvements="#d69f089f-b004-4c8d-a982-72cddc6d8c30"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="9bc171b6-341e-4a8c-8d5b-e7e6ce26186a" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#a81d3a0c-d472-465e-93d9-0ec1cc7a4fd9"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="8a091c72-ff81-4338-9ebb-b0384965adb6" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#d034500c-cd42-4bc9-8079-ec51cb94eddc"
+          nextInvolvements="#9bc171b6-341e-4a8c-8d5b-e7e6ce26186a"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="3dd1317f-a6e9-4a05-bba7-204a5bb64805" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#fd92c1e0-ff4a-4fe4-b4d5-7ce826a06423"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="91429eb9-f235-4535-a218-c215c653a5f8" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#9338501e-1bc7-4bd9-a38c-55160382bb6d"
+          nextInvolvements="#3dd1317f-a6e9-4a05-bba7-204a5bb64805"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="792b4a20-aea9-4492-9402-77ef745eb72d" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#86bbc44e-ed5c-4125-a6aa-329722c3ae84"
+          nextInvolvements="#3320c581-ccc9-47fb-8bcf-5c540129ef47"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="a6e445fa-2a2d-4708-bcac-b3417c78dae5" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#0c1396b9-8561-45bf-81a4-c0e2813dcb32"
+          nextInvolvements="#792b4a20-aea9-4492-9402-77ef745eb72d"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="839ae86a-0727-4f82-aa47-166e9f883191" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#86bbc44e-ed5c-4125-a6aa-329722c3ae84"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="3320c581-ccc9-47fb-8bcf-5c540129ef47" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#f896545a-121e-4648-bbfe-25b16f0d9074"
+          nextInvolvements="#839ae86a-0727-4f82-aa47-166e9f883191"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="4ffaf455-37bb-49fd-9ada-49d5dfd212c4" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#b1421eb4-d03d-41c9-b4d4-9bddfee3e3d9"
+          nextInvolvements="#49da69ab-cf65-44df-882b-9c888aaa3ebe"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="59fd92a4-3b4f-4a5a-b1fa-0a58c2c032ac" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#1d5a3cec-4c92-4d14-a178-941ae8bc6e52"
+          nextInvolvements="#4ffaf455-37bb-49fd-9ada-49d5dfd212c4"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="f3fc42cb-4fc4-439c-b921-015de6a2ea4b" involved="org.polarsys.capella.core.data.cs:Part Structure/ArborescencePhysique/Phase1A.capellafragment#b1421eb4-d03d-41c9-b4d4-9bddfee3e3d9"/>
+      <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
+          id="49da69ab-cf65-44df-882b-9c888aaa3ebe" involved="org.polarsys.capella.core.data.cs:PhysicalLink Structure/ArborescencePhysique/Phase1A.capellafragment#ef3ad3a4-90a5-4dd0-a93e-b08bc714dd0c"
+          nextInvolvements="#f3fc42cb-4fc4-439c-b921-015de6a2ea4b"/>
+    </ownedPhysicalPath>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Structure/Diagramme.capellafragment#24313688-de37-4dd7-82cb-94de8db378d2"/>
+    <ownedPhysicalComponentPkgs xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponentPkg"
+        href="Structure/ArborescencePhysique.capellafragment#680ca1de-28f7-45e4-b611-fb1ffe422882"/>
+  </ownedPhysicalComponents>
+</org.polarsys.capella.core.data.pa:PhysicalComponentPkg>

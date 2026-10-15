@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Capella_Version_6.1.0-->
+<org.polarsys.capella.core.data.la:LogicalComponentPkg xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
+    id="cfa86a97-67a2-4195-bb93-07fddc77e08a"
+    name="CaDi">
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="b1e76ff4-1837-4849-912b-6d97b11b8e86" name="CF - Commander Verrouillage d'un Accès"/>
+  <ownedLogicalComponentPkgs xsi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg"
+      id="4cf0f332-d401-49af-ad64-323c2423a601" name="CF - Inhiber Zone d'Intrusion"/>
+</org.polarsys.capella.core.data.la:LogicalComponentPkg>
