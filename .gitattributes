@@ -1,0 +1,5 @@
+.githooks/* text eol=lf
+*.capella merge=capella -text
+*.capellafragment merge=capella -text
+*.aird merge=capella -text
+*.airdfragment merge=capella -text

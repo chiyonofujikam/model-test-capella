@@ -1,0 +1,19 @@
+# Configuration de capella-merge (créée par « capella-merge start »).
+# Exemple complet et commenté : docs/capella-merge.example.toml
+
+[integration]
+main = "main"                       # branche de référence du modèle
+remote = "origin"                   # dépôt partagé
+feature_pattern = "feature/*"         # branches des modélisateurs
+branches = []                         # ordre d'intégration (vide : toutes les branches)
+journal_dir = "integration/journal"   # journaux d'intégration (Markdown et HTML)
+
+[rules.aird]
+geometry = "ours"    # positions et tailles des diagrammes : version de main conservée
+content = "ask"      # noms, documentation, éléments affichés : le responsable tranche
+technical = "ours"
+derived = "ours"
+other = "ask"
+
+[rules.capella]
+default = "ask"

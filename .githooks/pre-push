@@ -1,0 +1,8 @@
+#!/bin/sh
+# Installé par « capella-merge install --responsable ».
+# Bloque le push si le modèle Capella est invalide (capella-merge check).
+PY="C:/Users/MustaphaELKAMILI/AppData/Local/Programs/Python/Python314/python.exe"
+if [ -x "$PY" ]; then
+  exec "$PY" -m capella_merge check
+fi
+exec capella-merge check
