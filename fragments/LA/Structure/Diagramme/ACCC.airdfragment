@@ -8962,7 +8962,7 @@
         </edges>
       </data>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2VPzUDpIEfGhcKjUXcEULg" source="DANNOTATION_CUSTOMIZATION_KEY">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_2VPzUDpIEfGhcKjUXcEULg" source="DANNOTATION_CUSTOMIZATION_KEY" argtest="mahdio">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_2VPzUTpIEfGhcKjUXcEULg" dataarg="TestMahdi0_0"/>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_2VQaYDpIEfGhcKjUXcEULg" name="AC">
