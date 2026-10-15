@@ -1969,7 +1969,7 @@
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="71d0d8a8-e467-433a-b43a-70b76837b139" name="WSTC">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="2972aeb4-2a20-4851-a878-22c1dcbe0c0c" targetElement="org.polarsys.capella.core.data.la:LogicalFunction ../Functions.capellafragment#af6ae723-d0e3-4f9b-88e9-bfe195c747ae"
+              id="39583926-d5fc-475b-8637-1fca5051cea5" targetElement="org.polarsys.capella.core.data.la:LogicalFunction ../Functions.capellafragment#af6ae723-d0e3-4f9b-88e9-bfe195c747ae"
               sourceElement="#71d0d8a8-e467-433a-b43a-70b76837b139"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="58200038-e926-4369-8027-b9964dfbc965" name="CP 1" orientation="IN"
