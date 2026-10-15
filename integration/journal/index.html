@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="generator" content="capella-merge 0.1.0">
+<title>Journaux d&#x27;intégration</title>
+<style>
+:root{--bg:#f6f7f9;--surface:#fff;--surface-2:#f1f3f6;--border:#dfe3e8;--text:#1b2330;
+--muted:#5d6878;--accent:#2b5fd9;--ok:#1d7a46;--ok-bg:#e5f4ec;--ko:#b42318;--ko-bg:#fdecea;
+--warn:#8a5a00;--warn-bg:#fff4dc;--idle:#5d6878;--idle-bg:#eceff3;--code:#eef1f5;
+--shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08)}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1318;--surface:#171c23;--surface-2:#1e252e;
+--border:#2b3440;--text:#e6e9ee;--muted:#9aa5b4;--accent:#7aa2ff;--ok:#5fd394;--ok-bg:#16301f;
+--ko:#ff8a80;--ko-bg:#3a1a18;--warn:#f5c869;--warn-bg:#352a10;--idle:#9aa5b4;--idle-bg:#232a33;
+--code:#222a34;--shadow:none}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);
+font:15px/1.55 "Segoe UI",system-ui,-apple-system,Roboto,"Helvetica Neue",Arial,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code,.mono{font-family:"Cascadia Mono",Consolas,"SFMono-Regular",Menlo,monospace;font-size:.86em}
+code{background:var(--code);padding:.1em .4em;border-radius:4px;word-break:break-all}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+header.top{background:var(--surface);border-bottom:1px solid var(--border)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;
+padding-top:14px;padding-bottom:14px;flex-wrap:wrap}
+.brand{font-weight:600;letter-spacing:.01em;display:flex;align-items:center;gap:10px}
+.brand .logo{width:26px;height:26px;border-radius:6px;background:var(--accent);color:#fff;
+display:grid;place-items:center;font-size:13px;font-weight:700}
+.brand small{color:var(--muted);font-weight:400}
+nav.crumbs{font-size:.9em;color:var(--muted)}
+.hero{padding:32px 0 8px}
+.hero h1{margin:0 0 4px;font-size:1.75em;font-weight:650;letter-spacing:-.01em}
+.hero p{margin:0;color:var(--muted)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;
+margin:22px 0 8px}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;
+box-shadow:var(--shadow)}
+.kpi .v{font-size:1.6em;font-weight:650;line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi .l{color:var(--muted);font-size:.85em}
+.kpi.ok .v{color:var(--ok)}.kpi.ko .v{color:var(--ko)}.kpi.warn .v{color:var(--warn)}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 0;padding:0;list-style:none}
+.toc a{display:inline-block;padding:5px 12px;border:1px solid var(--border);border-radius:999px;
+background:var(--surface);font-size:.88em;color:var(--text)}
+.toc a:hover{border-color:var(--accent);text-decoration:none}
+section.run{margin:30px 0}
+.run-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;
+border-bottom:2px solid var(--border);padding-bottom:8px;margin-bottom:14px}
+.run-head h2{margin:0;font-size:1.3em;font-weight:620}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:4px 24px;
+background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 18px;
+margin:0 0 18px;box-shadow:var(--shadow)}
+.meta div{display:flex;flex-direction:column}
+.meta dt{color:var(--muted);font-size:.8em;text-transform:uppercase;letter-spacing:.05em}
+.meta dd{margin:0 0 6px;font-weight:500}
+h3.group{font-size:.82em;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+margin:22px 0 10px;display:flex;align-items:center;gap:8px}
+h3.group .count{background:var(--surface-2);border-radius:999px;padding:0 8px;font-size:.95em}
+.card{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--idle);
+border-radius:10px;padding:16px 18px;margin:0 0 12px;box-shadow:var(--shadow)}
+.card.ok{border-left-color:var(--ok)}.card.ko{border-left-color:var(--ko)}
+.card-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.card-head h4{margin:0;font-size:1.08em;font-weight:620}
+.card-head .facts{color:var(--muted);font-size:.88em;margin-left:auto;display:flex;gap:14px;
+flex-wrap:wrap}
+.badge{display:inline-block;font-size:.75em;font-weight:600;padding:2px 9px;border-radius:999px;
+letter-spacing:.02em;white-space:nowrap}
+.badge.ok{color:var(--ok);background:var(--ok-bg)}.badge.ko{color:var(--ko);background:var(--ko-bg)}
+.badge.idle{color:var(--idle);background:var(--idle-bg)}.badge.warn{color:var(--warn);
+background:var(--warn-bg)}.badge.sim{color:var(--accent);background:var(--surface-2)}
+.callout{margin:12px 0 0;padding:10px 14px;border-radius:8px;background:var(--ko-bg);
+color:var(--text);border:1px solid transparent}
+.callout strong{color:var(--ko)}
+.callout ul{margin:6px 0 0;padding-left:20px}
+.callout.warn{background:var(--warn-bg)}.callout.warn strong{color:var(--warn)}
+.block{margin:14px 0 0}
+.block-title{font-size:.88em;font-weight:600;margin:0 0 6px;color:var(--text)}
+.block-title .hint{font-weight:400;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--surface-2);border:1px solid var(--border);border-radius:6px;
+padding:1px 8px;font-size:.85em}
+details{margin:14px 0 0;border:1px solid var(--border);border-radius:8px;background:var(--surface)}
+details>summary{cursor:pointer;padding:8px 12px;font-size:.88em;font-weight:600;list-style:none;
+display:flex;align-items:center;gap:8px}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"\25B8";color:var(--muted);transition:transform .15s}
+details[open]>summary::before{transform:rotate(90deg)}
+details>summary .hint{font-weight:400;color:var(--muted)}
+details>.inner{padding:0 12px 10px}
+ul.commits{margin:0;padding:0;list-style:none}
+ul.commits li{padding:4px 0;border-top:1px dashed var(--border)}
+ul.commits li:first-child{border-top:0}
+.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:.87em}
+th,td{text-align:left;padding:7px 10px;vertical-align:top;border-bottom:1px solid var(--border)}
+th{background:var(--surface-2);font-weight:600;color:var(--muted);font-size:.85em;
+text-transform:uppercase;letter-spacing:.04em;white-space:nowrap}
+tr:last-child td{border-bottom:0}
+td.val{max-width:340px;word-break:break-word}
+td .sub{display:block;color:var(--muted);font-size:.9em}
+.empty{background:var(--surface);border:1px dashed var(--border);border-radius:10px;
+padding:22px;text-align:center;color:var(--muted)}
+.days{display:flex;flex-direction:column;gap:10px;margin:22px 0}
+a.day{display:grid;grid-template-columns:minmax(180px,1.3fr) repeat(4,minmax(80px,1fr));gap:12px;
+align-items:center;background:var(--surface);border:1px solid var(--border);border-radius:10px;
+padding:14px 18px;color:var(--text);box-shadow:var(--shadow)}
+a.day:hover{border-color:var(--accent);text-decoration:none}
+a.day .d{font-weight:600}a.day .d small{display:block;color:var(--muted);font-weight:400}
+a.day .n{font-variant-numeric:tabular-nums;font-size:.9em;color:var(--muted)}
+a.day .n b{display:block;font-size:1.25em;color:var(--text)}
+a.day .n.ok b{color:var(--ok)}a.day .n.ko b{color:var(--ko)}
+h2.month{font-size:.85em;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);
+margin:28px 0 0}
+footer{color:var(--muted);font-size:.82em;border-top:1px solid var(--border);margin-top:40px;
+padding:18px 0 30px}
+@media (max-width:640px){.wrap{padding:0 16px}.hero h1{font-size:1.4em}
+.card-head .facts{margin-left:0;width:100%}
+a.day{grid-template-columns:1fr 1fr}a.day .d{grid-column:1/-1}}
+@media print{body{background:#fff;color:#000;font-size:11pt}header.top,nav.crumbs,.toc{display:none}
+.card,.meta,.kpi{box-shadow:none;break-inside:avoid}details{border:0}
+details>summary::before{content:""}details:not([open])>.inner{display:block}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+<div class="brand"><span class="logo">cm</span>capella-merge
+<small>Journal d'intégration</small></div>
+<nav class="crumbs">Tous les journaux</nav>
+</div></header>
+<main class="wrap">
+<div class="hero"><h1>Journaux d'intégration</h1>
+<p>1 journée d'intégration enregistrée(s).</p></div>
+<h2 class="month">octobre 2026</h2>
+<div class="days">
+<a class="day" href="2026-10-15.html"><span class="d">15/10/2026<small>Jeudi 15 octobre 2026</small></span><span class="n"><b>1</b>intégration(s)</span><span class="n ok"><b>1</b>intégrée(s)</span><span class="n"><b>0</b>reportée(s)</span><span class="n"><b>0</b>conflit(s) résolu(s)</span></a>
+</div>
+</main>
+<footer><div class="wrap">Généré par capella-merge 0.1.0 le 15/10/2026 à 15:03. Ce fichier est autonome et peut être ouvert hors ligne.</div>
+</footer>
+</body>
+</html>
